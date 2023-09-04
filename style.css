@@ -1,0 +1,93 @@
+/* ------------nav section start--------- */
+
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.logo-container {
+    display: flex;
+}
+
+.logo-title {
+    color: rgb(219, 35, 173);
+}
+
+.logo-container img {
+    width: 90px;
+    height: 50px;
+    padding: 20px;
+
+}
+
+.logo-container p {
+    font-size: 30px;
+
+
+}
+
+.nav-items-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    width: 50%;
+}
+
+.nav-items-container a {
+    text-decoration: none;
+}
+
+.follow-btn {
+    background-color: gray;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: black;
+
+}
+
+.youtube-logo {
+    width: 30px;
+    padding-left: 10px;
+}
+
+
+/* ------------nav section end----------- */
+
+/*--------- banner section start--- */
+.banner {
+    background-color: pink;
+    display: flex;
+}
+
+.banner-text {
+    width: 50%;
+    padding: 30px;
+}
+
+.banner-img {
+    width: 100px;
+}
+
+.btn-primary {
+    width: 130px;
+    border: none;
+    border-radius: 25px;
+    padding: 20px;
+    background: rgb(219, 35, 173);
+    color: white;
+}
+
+.btn-secondary {
+    width: 130px;
+    border: none;
+    border-radius: 25px;
+    padding: 20px;
+    background: lightskyblue;
+    color: white;
+}
+
+/*--------- banner section end--- */

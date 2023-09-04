@@ -1,0 +1,14 @@
+/* ---------responsive design for mobile device--------- */
+@media screen and (max-width: 567px) {
+
+    .nav-container,
+    .nav-items-container,
+    .banner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-items-container a {
+        padding: 10px;
+    }
+}
