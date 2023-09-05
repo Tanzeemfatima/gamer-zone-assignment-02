@@ -121,12 +121,12 @@ main {
     text-align: center;
 }
 
-.funny-vdo-title {
+.games-title {
     font-size: 35px;
     font-weight: 900;
 }
 
-.funny-vdo-des {
+.games-des {
     font-size: 24px;
     padding: 5px 5px;
 }
@@ -155,4 +155,45 @@ main {
     filter: brightness(50%);
 }
 
-/* ------online games part end------- */
+/* ------ online games part end------- */
+
+
+/* ------play online games part start------- */
+.online-games {
+    margin: 200px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen-img {
+    width: 250px;
+
+}
+
+/* ------play online games part end------- */
+
+/* ---games versions part start--- */
+.game-version {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.games {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px;
+
+}
+
+.games p {
+    margin-left: 10px;
+}
+
+/* ---games versions part end--- */

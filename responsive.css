@@ -4,9 +4,15 @@
     .nav-container,
     .nav-items-container,
     .banner,
-    .card-container {
+    .card-container,
+    .online-games {
         flex-direction: column;
         align-items: center;
+    }
+
+    .online-games {
+        text-align: center;
+        flex-direction: column-reverse;
     }
 
     .nav-items-container a,
