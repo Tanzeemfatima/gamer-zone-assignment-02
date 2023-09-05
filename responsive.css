@@ -4,15 +4,34 @@
     .nav-container,
     .nav-items-container,
     .banner,
+    .online-games,
     .card-container,
-    .online-games {
+    .images {
         flex-direction: column;
         align-items: center;
+    }
+
+    .btn-primary,
+    .nav-items-container,
+    .nav-items-container a {
+        margin: 20px 0px;
     }
 
     .online-games {
         text-align: center;
         flex-direction: column-reverse;
+        margin: 100px 0px;
+    }
+
+    .main-image {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .screen-img {
+        width: 200px;
+        margin-top: -200px;
+        margin-left: 250px;
     }
 
     .nav-items-container a,
@@ -21,8 +40,7 @@
 }
 
 .banner-img {
-    width: 700px;
-    height: 100px;
+    width: 100%;
 }
 
 

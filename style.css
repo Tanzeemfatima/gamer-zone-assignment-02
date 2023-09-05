@@ -1,4 +1,4 @@
-/* ------------nav section start--------- */
+/* ------------header section start--------- */
 
 
 .nav-container {
@@ -57,7 +57,7 @@
 }
 
 
-/* ------------nav section end----------- */
+/* ------------header section end----------- */
 
 /*--------- banner section start--- */
 main {
@@ -65,10 +65,11 @@ main {
 }
 
 .banner {
-    background-color: pink;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(237, 211, 215);
+    padding: 50px;
 }
 
 .banner-text {
@@ -87,10 +88,9 @@ main {
 }
 
 .banner-img {
-    width: 50%;
-    height: 100px;
-    padding: 50px;
-    object-fit: cover;
+    width: 711px;
+    height: 446px;
+
 
 }
 
@@ -160,14 +160,36 @@ main {
 
 /* ------play online games part start------- */
 .online-games {
-    margin: 200px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
+    padding: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.online-games-text {
+    width: 50%;
+}
+
+.images {
+    display: flex;
+}
+
+.main-img {
+    width: 410px;
+    height: 550px;
+    flex-shrink: 0;
 }
 
 .screen-img {
-    width: 250px;
+    width: 160px;
+    height: 260px;
+    flex-shrink: 0;
+    margin-left: -110px;
+    margin-top: 350px;
 
 }
 
@@ -179,6 +201,8 @@ main {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .games {
@@ -190,17 +214,20 @@ main {
 
 }
 
+.games:hover {
+    text-align: center;
+    border: 2px solid rgb(219, 35, 173);
+    border-radius: 35px;
+    height: 30px;
+    cursor: pointer;
+    color: rgb(219, 35, 173);
+}
+
 .games p {
     margin-left: 10px;
 }
 
-.arcade-games {
-    text-align: center;
-    border: 2px solid rgb(219, 35, 173);
-    border-radius: 25px;
-    width: 130px;
-    height: 20px;
-}
+.arcade-games {}
 
 /* ---games versions part end--- */
 
@@ -225,6 +252,38 @@ footer .logo-container {
 
 footer img {
     padding: 15px;
+}
+
+footer li {
+    list-style: none;
+    color: rgba(255, 255, 255, 0.60);
+    display: inline-flex;
+    flex-wrap: wrap;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px;
+}
+
+footer img:hover {
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 50px;
+
+
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 20px;
 }
 
 /* -------footer part end--- */
