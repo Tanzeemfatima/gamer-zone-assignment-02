@@ -3,12 +3,21 @@
 
     .nav-container,
     .nav-items-container,
-    .banner {
+    .banner,
+    .card-container {
         flex-direction: column;
         align-items: center;
     }
 
-    .nav-items-container a {
-        padding: 10px;
-    }
+    .nav-items-container a,
+    {
+    padding: 10px;
+}
+
+.banner-img {
+    width: 700px;
+    height: 100px;
+}
+
+
 }

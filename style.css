@@ -12,7 +12,7 @@
     display: flex;
 }
 
-.logo-title {
+.span-title {
     color: rgb(219, 35, 173);
 }
 
@@ -42,6 +42,7 @@
 }
 
 .follow-btn {
+    align-items: center;
     background-color: gray;
     padding: 5px 10px;
     border-radius: 5px;
@@ -51,16 +52,23 @@
 
 .youtube-logo {
     width: 30px;
-    padding-left: 10px;
+    margin-left: 20px;
+    height: 30px;
 }
 
 
 /* ------------nav section end----------- */
 
 /*--------- banner section start--- */
+main {
+    margin: ;
+}
+
 .banner {
     background-color: pink;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner-text {
@@ -68,8 +76,22 @@
     padding: 30px;
 }
 
+.banner-title {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.banner-des {
+    font-size: 20px;
+    padding: 5px 5px;
+}
+
 .banner-img {
-    width: 100px;
+    width: 50%;
+    height: 100px;
+    padding: 50px;
+    object-fit: cover;
+
 }
 
 .btn-primary {
@@ -91,3 +113,46 @@
 }
 
 /*--------- banner section end--- */
+
+/* ------online games part start------- */
+.funny-videoes-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.funny-vdo-title {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.funny-vdo-des {
+    font-size: 24px;
+    padding: 5px 5px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-container p {
+    text-align: center;
+
+}
+
+.img {
+    width: 300px;
+    height: 350px;
+
+}
+
+.card-3 img:hover {
+    cursor: pointer;
+    width: 330px;
+    height: 380px;
+    filter: brightness(50%);
+}
+
+/* ------online games part end------- */
