@@ -179,16 +179,14 @@ main {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-
-
 }
 
 .games {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    padding: 15px;
+    padding: 20px;
+    font-size: 20px;
 
 }
 
@@ -196,4 +194,37 @@ main {
     margin-left: 10px;
 }
 
+.arcade-games {
+    text-align: center;
+    border: 2px solid rgb(219, 35, 173);
+    border-radius: 25px;
+    width: 130px;
+    height: 20px;
+}
+
 /* ---games versions part end--- */
+
+/* -------footer part start--- */
+footer {
+    margin: 100px 0px 0px;
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}
+
+footer .logo-container {
+    justify-content: center;
+}
+
+.footer-p {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+footer img {
+    padding: 15px;
+}
+
+/* -------footer part end--- */
