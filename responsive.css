@@ -1,4 +1,5 @@
 /* ---------responsive design for mobile device--------- */
+
 @media screen and (max-width: 567px) {
 
     .nav-container,
@@ -18,10 +19,11 @@
     }
 
     .online-games {
-        text-align: center;
+        width: 50%;
         flex-direction: column-reverse;
         margin: 100px 0px;
     }
+
 
     .main-image {
         width: 100%;
@@ -44,4 +46,11 @@
 }
 
 
+}
+
+/* -----responsive for tablet device------ */
+@media screen and (min-width: 567px) and (max-width:992px) {
+    .card-container {
+        flex-wrap: wrap;
+    }
 }
