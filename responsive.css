@@ -24,6 +24,9 @@
         margin: 100px 0px;
     }
 
+    .gt {
+        font-size: 30px;
+    }
 
     .main-image {
         width: 100%;
@@ -45,12 +48,17 @@
     width: 100%;
 }
 
+footer p {
+    flex-wrap: wrap;
+}
 
 }
 
 /* -----responsive for tablet device------ */
 @media screen and (min-width: 567px) and (max-width:992px) {
-    .card-container {
+
+    .card-container,
+    footer p {
         flex-wrap: wrap;
     }
 }
